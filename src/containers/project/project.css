@@ -1,0 +1,98 @@
+.projects {
+  height: auto;
+  padding: 120px 8%;
+  color: var(--yellow-theme-main-color);
+}
+
+.project-header h2 {
+  text-align: center;
+  font-size: 30px;
+  letter-spacing: 3px;
+  margin-bottom: 60px;
+  font-weight: 600;
+}
+
+
+.project-card {
+  max-width: 1200px;
+  margin: auto;
+}
+.projects-title {
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.project-description {
+  max-width: 800px;
+  margin: 0 auto 30px auto;
+  text-align: center;
+  line-height: 1.7;
+  color: #bdbdbd;
+  font-size: 16px;
+}
+
+.tech-stack {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 50px;
+}
+
+.tech-stack span {
+  border: 1px solid #333;
+  padding: 8px 18px;
+  border-radius: 30px;
+  font-size: 15px;
+  transition: all 0.3s ease;
+}
+
+.tech-stack span:hover {
+  background: white;
+  color: black;
+  cursor: default;
+}
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 25px;
+}
+.project-grid img {
+  width: 100%;
+  border-radius: 16px;
+  transition: all 0.4s ease;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+}
+.project-grid-todo img{
+  width: 300px;
+  border-radius: 16px;
+}
+.project-grid-todo img:hover{
+   transform: translateY(-8px);
+}
+
+.project-grid img:hover {
+  transform: translateY(-8px);
+}
+.github {
+  margin-top: 40px;
+}
+
+.github a {
+  padding: 10px 25px;
+  border-radius: 30px;
+  background-color: #ffffff;
+  color: #000;
+  font-weight: 600;
+  font-size: 13px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.github a:hover {
+  background-color: #000;
+  color: #fff;
+  border: 1px solid #fff;
+}

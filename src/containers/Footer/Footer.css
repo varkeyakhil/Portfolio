@@ -1,0 +1,11 @@
+.footer{
+     color: rgb(213, 223, 13);
+     width: 100%;
+     height: 200px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 5px;
+     font-size: 13px;
+     margin-bottom: 40px;
+}
