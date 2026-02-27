@@ -29,7 +29,7 @@ const Home = () => {
                     </div>
                     <div className='btn'>
                         <a
-                            href="/Akhil_Varkey.pdf"
+                            href="/Akhil_varkey.pdf"
                             target="_blank"
                             rel="noopener noreferrer"
                         >Resume</a>
