@@ -5,7 +5,7 @@ import './style.css'
 const About = () => {
     return (
         <section className="about" id="about">
-            <h2>About Me</h2>
+            <h2>Who am I?</h2>
 
             <p>
                 I’m <span>Akhil Varkey</span>, a passionate Web Developer who enjoys
